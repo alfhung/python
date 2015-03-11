@@ -1,0 +1,52 @@
+1# determine if file is in directory
+2# add number to lines
+3# create new text file with number in lines
+4# display file number lines
+5
+6# note: I was not able to make my program ignore the
+7# that start with # or blank spaces
+8
+9# open file for reading
+10def content(file):
+11    file_opened = True
+12    while file_opened:
+13        try:
+14            in_file = open(file, 'r')
+15            file_opened = False
+16        # if file not in directory, prompt for another file
+17        except IOError:
+18            file = input('No such file in directory,'\
+19                         'Please enter another file name: ')
+20    return in_file
+21
+22# add number to lines
+23def read_file(in_file):
+24    # create new file for writing
+25    new_file = open('new_file.txt','w')
+26    # read lines in file
+27    line = in_file.readline()
+28    # set accumulator
+29    line_num = 0
+30    while line != '':
+31        line = line.strip('\n')
+32        line_num = line_num + 1
+33        # display the number lines in screen
+34        print('%d: ' %(line_num),line)
+35        line = in_file.readline()
+36
+37        # copy number lines into new text file
+38        new_file.write(str(line_num) + str(line))
+39    
+40    new_file.close()
+41
+42# prompt for file name and call other functions
+43def main():
+44    file = input('Please enter a file name: ')
+45    in_file = content(file)
+46    add_number = read_file(in_file)
+47    
+48    in_file.close()
+49
+50# call main function
+51main()
+52

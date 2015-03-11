@@ -1,0 +1,5 @@
+London;England;7556900;English;Tower of London
+Paris;France;2193031;French;Eiffel Tower
+Sydney;Australia;4575532;English;Sydney Opera House
+Rome;Italy;2754440;Italian;Colosseum
+Los Angeles;USA;3833995;English;Hollywood Boulevard

@@ -1,0 +1,47 @@
+
+
+CS110 - Section A
+Spring 2011
+
+Assignment 8
+
+
+
+Do the following Algorithm Workbench problems from p.326  Write just the Python statements that are asked for.  Your answers should be typed or neatly written by hand.   
+#10 
+
+#11 
+
+#12 
+#14 
+#15 
+Do the following Programming Exercises.  Be sure to decompose each program into multiple functions and follow the grading guidelines.  
+
+
+#1 on p.148 - Do the conversion from a decimal number to the corresponding roman numeral using a list of roman numerals rather than an if-elif-elif---else statement.  Also, you must validate the user input to make sure that it is a string that can be converted to int and that it is between 1 and 10.  Keep prompting for user input until the user entry meets both of these criteria.
+
+
+#6 on p.327 - The file text.txt can be downloaded from here.  Your program should prompt the user to enter the name of the file to be read from.  Be sure to use text.txt as one of your test cases.  You can use IDLE, Notepad or any other text editor to create other files to use as test cases.  For purposes of this assignment a word is defined as a sequence of characters delimited by blanks and containing at least one alpha character.
+
+
+An interesting problem when setting up a round robin tournament is setting up a schedule so that each player plays each other player exactly once.  Given n players n-1 rounds will be required since each player has to play the other n-1 players.  There is an algorithm for solving this problem at http://en.wikipedia.org/wiki/Round-robin_tournament#Scheduling_algorithm.  Write a function that has the number of players as a parameter (you can assume that there will be an even number of players) and displays the schedule for each of the n-1 rounds required to complete the tournament.  For example,  if there are 4 players the schedule might be:
+
+       Round 1:  1 vs. 4   2 vs. 3
+       Round 2:  1 vs. 3   4 vs. 2
+       Round 3:  1 vs. 2   3 vs. 4
+
+There is a list mutator method that is not covered in the textbook that you might find helpful.  It is the pop method.  The pop method removes and returns the item at a given index position.  Here is an example of the behavior of the pop method:
+
+>>> myList = [1, 2, 3, 4]
+>>> myList.pop()
+4
+>>> myList
+[1, 2, 3]
+>>> 
+
+In addition to submitting your assignment as you have in the past, submit all of your Python modules via Blackboard.  
+Due Date:  Wed. March 30 (by 5 pm) 
+
+Put the envelope containing all parts of the assignment in the CS110 - Iwobi drawer of the homework filing cabinets located on the third floor of the Engineering Building near rooms N1 and N3.  Take the hallway between classroom N25 and the stairwell. 
+
+

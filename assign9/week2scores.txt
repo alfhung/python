@@ -1,0 +1,8 @@
+Ruth 3 5 4 6 5 4 5 3 6
+Elena 5 6 4 5 6 5 7 4 6
+Jane 5 4 5 5 6 4 3 4 5
+Ezgi  3 5 5 5 4 5 6 6 6
+Ricki 5 6 5 4 5 7 6 4 5
+Margaret 4 5 4 4 3 4 5 4 5
+Rosalia 5 5 5 4 5 5 6 5 5
+Betty 5 4 6 5 4 5 6 5 4

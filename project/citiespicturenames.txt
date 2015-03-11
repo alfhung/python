@@ -1,0 +1,5 @@
+london.gif
+paris.gif
+rome.gif
+los angeles.gif
+sydney.gif
